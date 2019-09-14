@@ -74,7 +74,6 @@ func authMiddleware(c *gin.Context) {
 		c.Abort()
 	}
 	c.Next()
-	//fmt.Println("Done authMiddlewear")
 }
 
 func createCustHandler(c *gin.Context) {
